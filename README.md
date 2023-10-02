@@ -36,6 +36,9 @@ In the index.html file for the home page, we display a text field where the user
 To display the text summary of the text we inputted, we create summary.html as shown:
 
 
+
+
+
 In the project folder, we have the following folders and files:
 
 The folder contains files installed during virtual environment creation.
