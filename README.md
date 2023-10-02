@@ -37,7 +37,9 @@ To display the text summary of the text we inputted, we create summary.html as s
 In the project folder, we have the following folders and files:
 
 The folder contains files installed during virtual environment creation.
+
 The templates folder.
+
 app.py file containing the Python script.
 
 
