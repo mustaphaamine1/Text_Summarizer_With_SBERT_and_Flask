@@ -25,8 +25,10 @@ Due to the high efficiency with which these similarity measures can be computed 
 
 We create a folder called templates with two files inside it:
 
-index.html
-summary.html
+* index.html
+  
+* summary.html
+  
 In the index.html file for the home page, we display a text field where the user can submit a textual content that is to be summarized:
 
 ![image](https://github.com/mustaphaamine1/Text_Summarizer_With_SBERT_and_Flask/assets/92463510/3f8539ce-b35d-497e-92d5-bc54d8ebc32c)
