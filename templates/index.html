@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer App</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #F5F5F5;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #FFFFFF;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #FFFFFF;
+            border-radius: 40px;
+            padding: 10px 200px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .btn-summarize {
+            background-color: #333;
+            color: #FFFFFF;
+            padding: 10px 100px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h1, h2, h3 {
+          position: relative;
+
+            left: 30%;
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+         .center {
+            text-align-last: center;
+            
+        }
+
+        .text-area {
+        height: 200px;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container mt-4">
+        <h1 >Welcome to Text Summarizer</h1>
+        <p>Text Summarizer is a tool that allows you to summarize long pieces of text into shorter, more manageable chunks. Simply enter your text into the form above and click "Summarize" to get started.</p>
+        
+    </div>
+    <div class="container mt-4">
+        <div class="form-container">
+            <form action="/summarize" method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Enter Your Text To Be Summarized:</label>
+                    
+                    <textarea class="text-area" id="exampleFormControlTextarea1" rows="10" name="data"></textarea>
+                </div>
+                <div class="center">
+                <button type="submit" class="btn-summarize btn-block mt-3" style="float: middle;">Summarize</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container mt-4">
+
+        <h1>How It Works</h1>
+        <p>Text Summarizer uses advanced algorithms to analyze your text and identify the most important information. It then generates a summary that captures the essence of the text in just a few sentences.</p>
+        
+    </div>
+
+    <h1>Socials</h1>
+
+    <nav
+      class="navbar navbar-light"
+      style="background-color: hsl(236, 96%, 22%);"
+    >
+
+    <!-- Footer Section -->
+    <footer style="background-color: hsl(120, 96%, 22%); padding: 20px; text-align: center;">
+      <div class="container">
+        <div>
+          <a href="https://www.linkedin.com/in/mustapha-amine/" target="_blank" style="color: white; text-decoration: none; margin-right: 20px;">LinkedIn</a>
+          <a href="https://github.com/mustaphaamine1/" target="_blank" style="color: white; text-decoration: none; margin-right: 20px;">GitHub</a>
+          <a href="https://mustapha-amine-data-scientist.framer.ai" target="_blank" style="color: white; text-decoration: none; margin-right: 20px;">Website</a>
+          <a href="mailto:mostapha.amine@um6p.ma" style="color: white; text-decoration: none;">Email</a>
+        </div>
+      </div>
+    </footer>
+    
+</body>
+</html>
